@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline:1px solid red; */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  
+  font-size: 3rem;
+  text-align: center;
+  padding: 10px 10px;
+  /* border: 2px solid red; */
+
+    min-width: 100%;
+  /* max-width: 30%; */
+  margin: 0 auto;
+}
+.title-container{
+  border: 6px solid rgba(81, 76, 245, 0.663);
+  border-radius: 10px;
+margin: 3rem;
+
+  min-width: 30%;
+}
+
+.card
+{
+  /* height: max-content; */
+  /* height: 350px; */
+  height: max-content;
+  
+  /* outline: 1px solid rgba(222, 220, 223, 0.721); */
+  width: 400px;
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(98, 93, 93, 0.538);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(98, 93, 93, 0.538);
+  box-shadow: 0px 0px 5px 3px rgba(98, 93, 93, 0.538);  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin: 1rem;
+  /* justify-content: center; */
+  padding:1rem;
+  
+  
+  /* max-width: 50%; */
+}
+.image{
+  width: 380px;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+  /* height: 300px; */
+  object-fit: cover;
+}
+
+.contains-cards{
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  
+
+  /* outline: 1px solid black; */
+  flex-wrap: wrap;
+  /* gap: 2vw; */
+  justify-content: center;
+  /* margin: .2rem; */
+  /* align-items: center; */
+
+}
+.tour-price{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(52, 215, 52);
+  align-self: flex-start;
+}
+.name{
+  align-self: flex-start;
+  color: rgb(66, 62, 62);
+  padding-bottom: 15px;
+  font-size: 2rem;
+}
+.desc{
+  font-size: medium;
+  padding-bottom: 15px;
+
+  
+}
+.not-intrester{
+  padding: 10px 50px;
+  margin: 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: large;
+  background-color:rgba(82, 80, 80, 0.118) ;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 1px solid rgba(128, 128, 128, 0.614);
+}
+.not-intrester:hover{
+  background-color:rgba(82, 80, 80, 0.11) ;
+  outline: 1px solid rgba(128, 128, 128, 0.999);
+
+  
+}
+.Read{
+  color: rgb(17, 220, 220);
+  font-size: large;
+  cursor: pointer;
+}
+.get-back{
+  display:flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-data-left{
+  font-size: 2.5rem;
+  color: cadetblue;
+  padding:10px;
+  word-spacing: 5px;
+  letter-spacing: 8px;
+}
+.refresh{
+  padding: 10px 50px;
+  margin: 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: large;
+  background-color:rgba(82, 80, 80, 0.118) ;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 1px solid rgba(128, 128, 128, 0.614);
+  
+}
